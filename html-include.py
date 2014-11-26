@@ -75,6 +75,9 @@ class Includer():
 			f_out.write(soup.prettify(formatter=None))
 			f_out.close()
 
+#TODO: add flag to ignore file extensions when including
+#TODO: add bash script / bin to clean up command line usage
+#TODO: expand readme
 if __name__ == "__main__":
 	if len(sys.argv) < 3:
 		print("Usage: python3 html-include.py <input_dir> <output_dir>")
